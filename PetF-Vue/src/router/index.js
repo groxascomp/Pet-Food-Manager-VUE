@@ -20,6 +20,7 @@ const routes = [
     path: '/',
     component: Hero, // Home page
   },
+  { path: '/company', component: Company },   // ✅ new route for Company.vue
   { path: '/about', component: About },
   { path: '/services', component: Services },
   { path: '/blog', component: Blog },

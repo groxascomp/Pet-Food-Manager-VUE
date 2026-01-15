@@ -2,11 +2,11 @@
   <nav class="w-full bg-gray-800">
     <div class="px-4 sm:px-6 lg:px-8">
       <div class="flex h-16 items-center justify-between">
-        <!-- Logo -->
-        <span class="text-white font-bold text-lg">PetF.</span>
+        
+        <span class="text-white font-bold text-lg">PetF.</span> <!-- Logo -->
 
-        <!-- Desktop links -->
-        <div class="hidden sm:flex space-x-4">
+        
+        <div class="hidden sm:flex space-x-4"> <!-- Desktop links -->
           <RouterLink
             to="/"
             class="px-3 py-2 rounded-md text-sm font-medium"

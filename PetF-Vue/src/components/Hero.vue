@@ -45,5 +45,5 @@ const router = useRouter()
 </script>
 
 <style scoped>
-/* Scoped styles if needed, otherwise rely on Tailwind/App.css */
+
 </style>
