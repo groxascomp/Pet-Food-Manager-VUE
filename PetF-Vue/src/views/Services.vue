@@ -15,7 +15,7 @@
       <h1 class="text-6xl font-extrabold text-gray-800 mb-6">Tracking Food</h1>
       <h2 class="text-xl font-semibold text-gray-700 mb-8">🍽️ Food Served History 🍽️</h2><br />
 
-      <!-- Tracker Grid -->
+      
       <div class="grid grid-cols-3 gap-6 max-w-3xl mx-auto mb-8">
         <div class="bg-white border border-blue-200 rounded-lg shadow p-6 flex flex-col items-center">
           <span class="text-gray-700 font-semibold text-lg mb-2">Average Meal per Day</span>
@@ -31,7 +31,7 @@
         </div>
       </div>
 
-      <!-- Notification below tracker -->
+     
       <div
         v-if="notificationMessage"
         class="bg-yellow-100 border border-yellow-400 text-yellow-800 px-4 py-3 rounded relative mb-12 max-w-2xl mx-auto"
@@ -40,7 +40,7 @@
         <span class="block sm:inline">{{ notificationMessage }}</span>
       </div>
 
-      <!-- Logs Table -->
+      
       <p v-if="logs.length === 0" class="text-gray-500 font-medium">No food served yet.</p>
       <div v-else class="overflow-x-auto w-full max-w-2xl mx-auto mt-8">
         <table class="min-w-full divide-y divide-gray-200 border border-gray-300 rounded-lg shadow-sm text-center font-sans bg-white">
@@ -174,5 +174,5 @@ const notificationMessage = computed(() => {
 </script>
 
 <style scoped>
-/* Scoped styles if needed, otherwise rely on Tailwind/App.css */
+
 </style>

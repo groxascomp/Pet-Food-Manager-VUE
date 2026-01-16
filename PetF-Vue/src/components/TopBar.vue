@@ -31,7 +31,7 @@
 </template>
 
 <script setup>
-// Import Font Awesome Vue
+
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faFacebookF, faTwitter, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
@@ -40,5 +40,5 @@ library.add(faFacebookF, faTwitter, faLinkedinIn)
 </script>
 
 <style scoped>
-/* Scoped styles if needed, otherwise rely on Tailwind/App.css */
+
 </style>

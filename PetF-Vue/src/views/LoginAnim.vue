@@ -13,7 +13,7 @@
       class="hero__content container h-[322px] flex flex-col items-center justify-center"
       style="padding-top: 37px; padding-left: 45px;"
     >
-      <!-- ✅ Welcome + GIF in same line -->
+    
       <div class="flex items-center justify-center gap-4">
         <h1 class="hero__title text-6xl font-extrabold text-gray-800">
           Welcome 🎉
@@ -26,7 +26,7 @@
         />
       </div>
 
-      <!-- ✅ Local sound file (plays on page load) -->
+      
       <audio autoplay>
         <source src="/Sound2.m4a" type="audio/mp4" />
         Your browser does not support the audio element.
@@ -56,5 +56,5 @@ onMounted(() => {
 </script>
 
 <style scoped>
-/* Scoped styles if needed, otherwise rely on Tailwind/App.css */
+
 </style>

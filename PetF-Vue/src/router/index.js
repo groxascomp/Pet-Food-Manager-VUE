@@ -4,7 +4,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import Hero from '../components/Hero.vue'
 import Company from '../components/Company.vue'
 
-// Views (Pages)
+// Pages
 import About from '../views/About.vue'
 import Services from '../views/Services.vue'
 import Blog from '../views/Blog.vue'

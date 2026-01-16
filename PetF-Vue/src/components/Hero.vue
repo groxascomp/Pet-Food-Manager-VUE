@@ -9,7 +9,7 @@
     "
   >
     <div class="hero__content container">
-      <!-- Updated heading -->
+      
       <h1 class="hero__title text-6xl font-extrabold text-gray-800">
         Hello Fur Parent!
       </h1>

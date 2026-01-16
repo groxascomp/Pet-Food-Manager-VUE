@@ -22,7 +22,7 @@ import Footer from './components/Footer.vue'
 
 const route = useRoute()
 
-// Hide TopBar/NavBar/Footer on login and login-anim routes
+
 const isLoginRoute = computed(() =>
   route.path === '/login' || route.path === '/login-anim'
 )

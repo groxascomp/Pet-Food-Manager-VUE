@@ -7,9 +7,9 @@
 </template>
 
 <script setup>
-// No logic needed — purely static content
+
 </script>
 
 <style scoped>
-/* Scoped styles if needed, otherwise rely on global styles */
+
 </style>

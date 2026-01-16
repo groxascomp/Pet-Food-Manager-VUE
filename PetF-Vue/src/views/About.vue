@@ -18,7 +18,7 @@
         🐱 Control & Scheduling 🐶
       </h2>
 
-      <!-- Send Meal -->
+      
       <div class="flex justify-center items-center gap-4">
         <span v-if="showEmojis" class="emoji-fade-bounce text-2xl">🐾</span>
         <button
@@ -30,7 +30,7 @@
         <span v-if="showEmojis" class="emoji-fade-bounce text-2xl">🐾</span>
       </div>
 
-      <!-- Popup space -->
+      
       <div class="h-10 flex justify-center items-center">
         <p v-if="showDefaultMessage" class="popup-fade font-semibold text-gray-600">
           Ensure your pet is fed responsibly and thoughtfully.
@@ -44,7 +44,6 @@
         </p>
       </div>
 
-      <!-- Schedule -->
       <div class="bg-white border border-gray-300 rounded-lg shadow p-6 max-w-md mx-auto mb-4">
         <h3 class="text-lg font-semibold text-gray-800 mb-4">
           Set Day Schedule
@@ -84,7 +83,7 @@
         </div>
       </div>
 
-      <!-- Saved times -->
+      
       <div
         v-if="savedDay || savedNight"
         class="bg-white border border-gray-300 rounded-lg shadow p-6 max-w-md mx-auto mb-2"
@@ -209,5 +208,5 @@ onMounted(async () => {
 </script>
 
 <style scoped>
-/* Scoped styles if needed, otherwise rely on Tailwind/App.css */
+
 </style>

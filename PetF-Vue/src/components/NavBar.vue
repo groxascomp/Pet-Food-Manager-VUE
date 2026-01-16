@@ -3,10 +3,16 @@
     <div class="px-4 sm:px-6 lg:px-8">
       <div class="flex h-16 items-center justify-between">
         
-        <span class="text-white font-bold text-lg">PetF.</span> <!-- Logo -->
+       
+        <RouterLink
+          to="/company"
+          class="text-white font-bold text-lg hover:text-gray-300 transition"
+        >
+          PetF.
+        </RouterLink>
 
         
-        <div class="hidden sm:flex space-x-4"> <!-- Desktop links -->
+        <div class="hidden sm:flex space-x-4">
           <RouterLink
             to="/"
             class="px-3 py-2 rounded-md text-sm font-medium"
@@ -89,7 +95,7 @@
       </div>
     </div>
 
-    <!-- Mobile menu -->
+    
     <div v-if="mobileOpen" class="sm:hidden px-2 pt-2 pb-3 space-y-1">
       <RouterLink to="/" class="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">
         Home
@@ -158,7 +164,7 @@ onMounted(() => {
   onUnmounted(() => clearInterval(interval))
 })
 
-// Helper for active link styling
+
 const linkClass = (path) => {
   return route.path === path
     ? 'bg-gray-900 text-white'
@@ -167,5 +173,5 @@ const linkClass = (path) => {
 </script>
 
 <style scoped>
-/* Scoped styles if needed */
+
 </style>

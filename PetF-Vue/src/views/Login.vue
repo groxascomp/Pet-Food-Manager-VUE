@@ -39,7 +39,7 @@
         <p v-if="error" class="text-red-600 text-sm">{{ error }}</p>
       </div>
 
-      <!-- ✅ Hidden audio element for bonk sound -->
+      
       <audio ref="audioRef">
         <source src="/bonk.mp3" type="audio/mpeg" />
       </audio>
@@ -73,5 +73,5 @@ const handleLogin = () => {
 </script>
 
 <style scoped>
-/* Scoped styles if needed, otherwise rely on Tailwind/App.css */
+
 </style>

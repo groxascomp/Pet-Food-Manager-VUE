@@ -3,7 +3,7 @@
     <div
       class="w-full px-0 footer__inner flex flex-col md:flex-row justify-between items-center md:items-start gap-4"
     >
-      <!-- Far left: contact info -->
+      
       <div
         class="flex flex-col text-sm md:order-1 md:text-left w-full md:w-auto"
         style="padding-left: 50px;"
@@ -12,12 +12,12 @@
         <span>✉️ carlyn.vane.diana@gian-pat.com</span>
       </div>
 
-      <!-- Center: copyright -->
+      
       <div class="text-center md:order-2 w-full md:w-auto">
         <p>© {{ new Date().getFullYear() }} PetF. All rights reserved.</p>
       </div>
 
-      <!-- Far right: social icons -->
+     
       <div
         class="flex gap-3 text-white md:order-3 md:justify-end w-full md:w-auto"
         style="padding-right: 50px; padding-left: 142px;"
@@ -58,5 +58,4 @@ library.add(faFacebookF, faTwitter, faLinkedinIn)
 </script>
 
 <style scoped>
-/* Scoped styles if needed, otherwise rely on Tailwind/App.css */
 </style>

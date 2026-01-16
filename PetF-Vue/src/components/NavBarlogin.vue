@@ -2,10 +2,10 @@
   <nav class="w-full bg-gray-800">
     <div class="px-4 sm:px-6 lg:px-8">
       <div class="flex h-16 items-center justify-between">
-        <!-- Logo -->
+        
         <span class="text-white font-bold text-lg">PetF.</span>
 
-        <!-- Right side: hamburger only -->
+       
         <div class="flex items-center sm:hidden">
           <button
             type="button"
@@ -38,9 +38,9 @@
       </div>
     </div>
 
-    <!-- Mobile menu (currently empty) -->
+    
     <div v-if="mobileOpen" class="sm:hidden px-2 pt-2 pb-3 space-y-1">
-      <!-- No links here -->
+     
     </div>
   </nav>
 </template>
@@ -52,5 +52,5 @@ const mobileOpen = ref(false)
 </script>
 
 <style scoped>
-/* Scoped styles if needed */
+
 </style>
